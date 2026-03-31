@@ -16,7 +16,7 @@ export function FormularioDeEvento(){
         <Label htmlFor="nome">
           Qual o nome do evento?
         </Label>
-        <CampoDeEntrada className="text" id='nome' placeholder='Summer dev hits'></CampoDeEntrada>
+        <CampoDeEntrada type="text" id='nome' placeholder='Summer dev hits' name='nome'></CampoDeEntrada>
       </CampoDeFormulario>
       <CampoDeFormulario>
         <Label htmlFor="dataEvento">
