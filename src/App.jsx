@@ -19,7 +19,7 @@ function App() {
     },
     {
       id: 4,
-      nome: "inteligência artificial`",
+      nome: "inteligência artificial",
     },
     {
       id: 5,
@@ -38,6 +38,9 @@ function App() {
       </header>
       <Banner />
       <FormularioDeEvento />
+      <section>
+        <Tema tema={temas[0]} />
+      </section>
       <section>
         <Tema tema={temas[1]} />
       </section>
